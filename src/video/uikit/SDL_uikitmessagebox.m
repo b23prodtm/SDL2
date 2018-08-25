@@ -36,6 +36,7 @@ UIKit_ShowingMessageBox(void)
     return s_showingMessageBox;
 }
 
+#if TARGET_OS_IOS
 static void
 UIKit_WaitUntilMessageBoxClosed(const SDL_MessageBoxData *messageboxdata, int *clickedindex)
 {
@@ -51,11 +52,12 @@ UIKit_WaitUntilMessageBoxClosed(const SDL_MessageBoxData *messageboxdata, int *c
         s_showingMessageBox = SDL_FALSE;
     }
 }
+#endif /* TARGET_OS_IOS */
 
 static BOOL
 UIKit_ShowMessageBoxAlertController(const SDL_MessageBoxData *messageboxdata, int *buttonid)
 {
-#ifdef __IPHONE_8_0
+#if TARGET_OS_IOS
     int i;
     int __block clickedindex = messageboxdata->numbuttons;
     const SDL_MessageBoxButtonData *buttons = messageboxdata->buttons;
@@ -125,7 +127,7 @@ UIKit_ShowMessageBoxAlertController(const SDL_MessageBoxData *messageboxdata, in
     return YES;
 #else
     return NO;
-#endif /* __IPHONE_8_0 */
+#endif /* TARGET_OS_IOS */
 }
 
 /* UIAlertView is deprecated in iOS 8+ in favor of UIAlertController. */

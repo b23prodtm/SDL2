@@ -1,26 +1,12 @@
-/*
-  Simple DirectMedia Layer
-  Copyright (C) 1997-2018 Sam Lantinga <slouken@libsdl.org>
+//
+//  SDL_config_appletvos.h
+//  libSDL-tvOS
+//
+//  Created by www.b23prodtm.info on 25/08/2018.
+//
 
-  This software is provided 'as-is', without any express or implied
-  warranty.  In no event will the authors be held liable for any damages
-  arising from the use of this software.
-
-  Permission is granted to anyone to use this software for any purpose,
-  including commercial applications, and to alter it and redistribute it
-  freely, subject to the following restrictions:
-
-  1. The origin of this software must not be misrepresented; you must not
-     claim that you wrote the original software. If you use this software
-     in a product, an acknowledgment in the product documentation would be
-     appreciated but is not required.
-  2. Altered source versions must be plainly marked as such, and must not be
-     misrepresented as being the original software.
-  3. This notice may not be removed or altered from any source distribution.
-*/
-
-#ifndef SDL_config_iphoneos_h_
-#define SDL_config_iphoneos_h_
+#ifndef SDL_config_appletvos_h
+#define SDL_config_appletvos_h
 #define SDL_config_h_
 
 #include "SDL_platform.h"
@@ -158,9 +144,9 @@
 
 /* Metal supported on 64-bit devices running iOS 8.0 and tvOS 9.0 and newer */
 #if !TARGET_OS_SIMULATOR && !TARGET_CPU_ARM && ((__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__TV_OS_VERSION_MIN_REQUIRED >= 90000))
-#define SDL_PLATFORM_SUPPORTS_METAL	1
+#define SDL_PLATFORM_SUPPORTS_METAL    1
 #else
-#define SDL_PLATFORM_SUPPORTS_METAL	0
+#define SDL_PLATFORM_SUPPORTS_METAL    0
 #endif
 
 #if SDL_PLATFORM_SUPPORTS_METAL
@@ -174,18 +160,20 @@
 /* Enable system power support */
 #define SDL_POWER_UIKIT 1
 
-/* enable iPhone keyboard support */
-#define SDL_IPHONE_KEYBOARD 1
+/* enable iPhone keyboard support
+#define SDL_IPHONE_KEYBOARD 1 */
 
-/* enable iOS extended launch screen */
-#define SDL_IPHONE_LAUNCHSCREEN 1
+/* enable iOS extended launch screen *
+#define SDL_IPHONE_LAUNCHSCREEN 1 */
 
 /* Set max recognized G-force from accelerometer
-   See src/joystick/uikit/SDL_sysjoystick.m for notes on why this is needed
+ See src/joystick/uikit/SDL_sysjoystick.m for notes on why this is needed
  */
-#define SDL_IPHONE_MAX_GFORCE 5.0
+/* #define SDL_IPHONE_MAX_GFORCE 5.0 */
 
 /* enable filesystem support */
 #define SDL_FILESYSTEM_COCOA   1
 
-#endif /* SDL_config_iphoneos_h_ */
+
+
+#endif /* SDL_config_appletvos_h */
