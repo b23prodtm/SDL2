@@ -26,6 +26,35 @@
 		047A63E813285C3200CD7973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A89D0E2D111A00EA573E /* Foundation.framework */; };
 		047A63E913285C3200CD7973 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A89E0E2D111A00EA573E /* CoreAudio.framework */; };
 		047A63F113285CD100CD7973 /* checkkeys.c in Sources */ = {isa = PBXBuildFile; fileRef = 047A63F013285CD100CD7973 /* checkkeys.c */; };
+		33A86CA02130B0E4004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CA12130B135004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CA32130B148004B6214 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A86CA22130B148004B6214 /* Images.xcassets */; };
+		33A86CA42130B207004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CA52130B20F004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CA62130B214004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CA72130B21A004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CA82130B21F004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CA92130B224004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CAA2130B22A004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CAB2130B22F004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CAC2130B23C004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CAD2130B23F004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CAE2130B243004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CAF2130B247004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB02130B24B004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB12130B24F004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB22130B252004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB32130B256004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB42130B259004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB52130B25D004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB62130B262004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB72130B266004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB82130B26A004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CB92130B274004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CBA2130B278004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86CBB2130B27C004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
+		33A86DAD2130DA19004B6214 /* Test_tvOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A86DAC2130DA19004B6214 /* Test_tvOS.m */; };
+		33A86DBB2130DA2F004B6214 /* Test_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A86DBA2130DA2F004B6214 /* Test_iOS.m */; };
 		56ED04FE118A8FE400A56AA6 /* icon.bmp in Resources */ = {isa = PBXBuildFile; fileRef = FDA8AAD90E2D33B000EA573E /* icon.bmp */; };
 		56ED0502118A8FE400A56AA6 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B48B80E3131CA007AB34E /* libSDL2.a */; };
 		56ED0503118A8FE400A56AA6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A8980E2D111A00EA573E /* AudioToolbox.framework */; };
@@ -380,6 +409,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		33A86D932130D9B0004B6214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD1B48AC0E3131CA007AB34E /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 33A86D7F2130D898004B6214;
+			remoteInfo = SDL2;
+		};
+		33A86DAF2130DA19004B6214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3D99331BC4E644002C96C8;
+			remoteInfo = "testgamecontroller-TV";
+		};
+		33A86DBD2130DA2F004B6214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD2C53D0E2E80E400B7A85F;
+			remoteInfo = testsprite2;
+		};
 		AA1EE451176059230029C7A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AA1EE44D176059220029C7A5 /* SDL2test.xcodeproj */;
@@ -423,6 +473,18 @@
 		047A63ED13285C3200CD7973 /* checkkeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkkeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047A63F013285CD100CD7973 /* checkkeys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = checkkeys.c; path = ../../test/checkkeys.c; sourceTree = SOURCE_ROOT; };
 		1D6058910D05DD3D006BFB54 /* testwm2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testwm2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		33A86CA22130B148004B6214 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = testjoystick/Images.xcassets; sourceTree = "<group>"; };
+		33A86D8D2130D9B0004B6214 /* Test_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS.m; sourceTree = "<group>"; };
+		33A86D8F2130D9B0004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A86D9E2130D9DD004B6214 /* Test_tvOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_tvOS.m; sourceTree = "<group>"; };
+		33A86DA02130D9DD004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A86DAA2130DA19004B6214 /* Test-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A86DAC2130DA19004B6214 /* Test_tvOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_tvOS.m; sourceTree = "<group>"; };
+		33A86DAE2130DA19004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A86DB82130DA2F004B6214 /* Test-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A86DBA2130DA2F004B6214 /* Test_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS.m; sourceTree = "<group>"; };
+		33A86DBC2130DA2F004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56ED050D118A8FE400A56AA6 /* testpower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testpower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ED0510118A904200A56AA6 /* testpower.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = testpower.c; path = ../../test/testpower.c; sourceTree = SOURCE_ROOT; };
 		AA13B3261FB8AEBC00D9FEE6 /* testyuv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testyuv.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -553,6 +615,20 @@
 				FDA8A8A30E2D111A00EA573E /* UIKit.framework in Frameworks */,
 				FDA8A8A40E2D111A00EA573E /* Foundation.framework in Frameworks */,
 				FDA8A8A50E2D111A00EA573E /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A86DA72130DA19004B6214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A86DB52130DA2F004B6214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,6 +1123,8 @@
 				FABA34911D8B575200915323 /* testaudiocapture.app */,
 				FABA34AA1D8B582100915323 /* loopwav-TV.app */,
 				AA13B3261FB8AEBC00D9FEE6 /* testyuv.app */,
+				33A86DAA2130DA19004B6214 /* Test-tvOS.xctest */,
+				33A86DB82130DA2F004B6214 /* Test-iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1054,15 +1132,56 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */,
 				AA1EE44D176059220029C7A5 /* SDL2test.xcodeproj */,
 				FD1B48AC0E3131CA007AB34E /* SDL.xcodeproj */,
 				FDA8AAD60E2D339A00EA573E /* Resources */,
 				FDA8A7C30E2D10FA00EA573E /* Linked Frameworks */,
 				FDA8A73B0E2D0F0400EA573E /* src */,
+				33A86D8C2130D9B0004B6214 /* Test-iOS */,
+				33A86D9D2130D9DD004B6214 /* Test-tvOS */,
+				33A86DAB2130DA19004B6214 /* Test-tvOS */,
+				33A86DB92130DA2F004B6214 /* Test-iOS */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				FABA34751D8B4EAC00915323 /* Frameworks */,
 			);
 			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		33A86D8C2130D9B0004B6214 /* Test-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33A86D8D2130D9B0004B6214 /* Test_iOS.m */,
+				33A86D8F2130D9B0004B6214 /* Info.plist */,
+			);
+			path = "Test-iOS";
+			sourceTree = "<group>";
+		};
+		33A86D9D2130D9DD004B6214 /* Test-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				33A86D9E2130D9DD004B6214 /* Test_tvOS.m */,
+				33A86DA02130D9DD004B6214 /* Info.plist */,
+			);
+			path = "Test-tvOS";
+			sourceTree = "<group>";
+		};
+		33A86DAB2130DA19004B6214 /* Test-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				33A86DAC2130DA19004B6214 /* Test_tvOS.m */,
+				33A86DAE2130DA19004B6214 /* Info.plist */,
+			);
+			path = "Test-tvOS";
+			sourceTree = "<group>";
+		};
+		33A86DB92130DA2F004B6214 /* Test-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33A86DBA2130DA2F004B6214 /* Test_iOS.m */,
+				33A86DBC2130DA2F004B6214 /* Info.plist */,
+			);
+			path = "Test-iOS";
 			sourceTree = "<group>";
 		};
 		AA1EE44E176059220029C7A5 /* Products */ = {
@@ -1088,6 +1207,7 @@
 			children = (
 				FD1B48B80E3131CA007AB34E /* libSDL2.a */,
 				FA3D992B1BC4E619002C96C8 /* libSDL2.a */,
+				33A86D942130D9B0004B6214 /* SDL2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1146,6 +1266,7 @@
 		FDA8AAD60E2D339A00EA573E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				33A86CA22130B148004B6214 /* Images.xcassets */,
 				FA0EF2281BAF4487000E07A6 /* axis.bmp */,
 				FA0EF2291BAF4487000E07A6 /* button.bmp */,
 				FA0EF22A1BAF4487000E07A6 /* controllermap.bmp */,
@@ -1213,6 +1334,42 @@
 			productName = Test;
 			productReference = 1D6058910D05DD3D006BFB54 /* testwm2.app */;
 			productType = "com.apple.product-type.application";
+		};
+		33A86DA92130DA19004B6214 /* Test-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A86DB12130DA19004B6214 /* Build configuration list for PBXNativeTarget "Test-tvOS" */;
+			buildPhases = (
+				33A86DA62130DA19004B6214 /* Sources */,
+				33A86DA72130DA19004B6214 /* Frameworks */,
+				33A86DA82130DA19004B6214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A86DB02130DA19004B6214 /* PBXTargetDependency */,
+			);
+			name = "Test-tvOS";
+			productName = "Test-tvOS";
+			productReference = 33A86DAA2130DA19004B6214 /* Test-tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		33A86DB72130DA2F004B6214 /* Test-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A86DBF2130DA2F004B6214 /* Build configuration list for PBXNativeTarget "Test-iOS" */;
+			buildPhases = (
+				33A86DB42130DA2F004B6214 /* Sources */,
+				33A86DB52130DA2F004B6214 /* Frameworks */,
+				33A86DB62130DA2F004B6214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A86DBE2130DA2F004B6214 /* PBXTargetDependency */,
+			);
+			name = "Test-iOS";
+			productName = "Test-iOS";
+			productReference = 33A86DB82130DA2F004B6214 /* Test-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		56ED04FC118A8FE400A56AA6 /* testpower */ = {
 			isa = PBXNativeTarget;
@@ -1646,8 +1803,20 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0940;
 				TargetAttributes = {
+					33A86DA92130DA19004B6214 = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = 9SC9QXFQBZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA3D99331BC4E644002C96C8;
+					};
+					33A86DB72130DA2F004B6214 = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = 9SC9QXFQBZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDD2C53D0E2E80E400B7A85F;
+					};
 					AA13B3111FB8AEBC00D9FEE6 = {
 						DevelopmentTeam = EH385AYQ6F;
 					};
@@ -1712,11 +1881,20 @@
 				1D6058900D05DD3D006BFB54 /* testwm2 */,
 				AA13B3111FB8AEBC00D9FEE6 /* testyuv */,
 				FDD2C6E20E2E959E00B7A85F /* torturethread */,
+				33A86DA92130DA19004B6214 /* Test-tvOS */,
+				33A86DB72130DA2F004B6214 /* Test-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		33A86D942130D9B0004B6214 /* SDL2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDL2.framework;
+			remoteRef = 33A86D932130D9B0004B6214 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		AA1EE452176059230029C7A5 /* libSDL2test.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1753,6 +1931,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				046CEF7713254F23007AD51D /* icon.bmp in Resources */,
+				33A86CA42130B207004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1761,10 +1940,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA13B32F1FB8AF0C00D9FEE6 /* testyuv.bmp in Resources */,
+				33A86CB12130B24F004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A86CB72130B266004B6214 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A86DA82130DA19004B6214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A86DB62130DA2F004B6214 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1776,6 +1971,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56ED04FE118A8FE400A56AA6 /* icon.bmp in Resources */,
+				33A86CA62130B214004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1784,6 +1980,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA13B3301FB8AF2300D9FEE6 /* testyuv.bmp in Resources */,
+				33A86CAC2130B23C004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1793,6 +1990,7 @@
 			files = (
 				AAE7DEDC14CBB1E100DF1A0E /* icon.bmp in Resources */,
 				AAE7DF4714CBB45000DF1A0E /* sample.bmp in Resources */,
+				33A86CAE2130B243004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1802,6 +2000,7 @@
 			files = (
 				AAE7DFA014CBB54E00DF1A0E /* icon.bmp in Resources */,
 				AAE7DFA114CBB54E00DF1A0E /* sample.bmp in Resources */,
+				33A86CB52130B25D004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1820,6 +2019,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CBB2130B27C004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1838,6 +2038,7 @@
 				FAE0E9961BAF9B650098DFA4 /* controllermap.bmp in Resources */,
 				FAE0E9821BAF9B230098DFA4 /* icon.bmp in Resources */,
 				FAE0E9981BAF9B6E0098DFA4 /* axis.bmp in Resources */,
+				33A86CB32130B256004B6214 /* Default-568h@2x.png in Resources */,
 				FAE0E9971BAF9B6A0098DFA4 /* button.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1847,6 +2048,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA8AAE30E2D33C600EA573E /* sample.wav in Resources */,
+				33A86CB92130B274004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1854,6 +2056,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CBA2130B278004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1861,6 +2064,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CB22130B252004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1868,6 +2072,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CA72130B21A004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1876,6 +2081,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDAAC6390E2D59BE001DB1D8 /* icon.bmp in Resources */,
+				33A86CB42130B259004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1883,6 +2089,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CAB2130B22F004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1890,6 +2097,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CB02130B24B004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1898,6 +2106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD2C18B0E2E52FE00B7A85F /* utf8.txt in Resources */,
+				33A86CB62130B262004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1905,6 +2114,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CA12130B135004B6214 /* Default-568h@2x.png in Resources */,
+				33A86CA32130B148004B6214 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1912,6 +2123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CAD2130B23F004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1919,6 +2131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CA02130B0E4004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1926,6 +2139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CB82130B26A004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1933,6 +2147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CAF2130B247004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1941,6 +2156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD2C5520E2E812C00B7A85F /* icon.bmp in Resources */,
+				33A86CA52130B20F004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1949,6 +2165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD2C5760E2E8C7400B7A85F /* icon.bmp in Resources */,
+				33A86CA82130B21F004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1957,6 +2174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD2C5B50E2E8CFC00B7A85F /* icon.bmp in Resources */,
+				33A86CAA2130B22A004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1964,6 +2182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A86CA92130B224004B6214 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1992,6 +2211,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA8A79C0E2D0F9300EA573E /* testwm2.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A86DA62130DA19004B6214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A86DAD2130DA19004B6214 /* Test_tvOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A86DB42130DA2F004B6214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A86DBB2130DA2F004B6214 /* Test_iOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2199,6 +2434,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		33A86DB02130DA19004B6214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3D99331BC4E644002C96C8 /* testgamecontroller-TV */;
+			targetProxy = 33A86DAF2130DA19004B6214 /* PBXContainerItemProxy */;
+		};
+		33A86DBE2130DA2F004B6214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD2C53D0E2E80E400B7A85F /* testsprite2 */;
+			targetProxy = 33A86DBD2130DA2F004B6214 /* PBXContainerItemProxy */;
+		};
 		FAA8CEE61BDF06DC00D3BD45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libSDL-tv";
@@ -2210,7 +2455,9 @@
 		046CEF8413254F23007AD51D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testgesture;
 			};
 			name = Debug;
@@ -2218,7 +2465,9 @@
 		046CEF8513254F23007AD51D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testgesture;
 			};
 			name = Release;
@@ -2226,7 +2475,9 @@
 		047A63EB13285C3200CD7973 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = checkkeys;
 			};
 			name = Debug;
@@ -2234,7 +2485,9 @@
 		047A63EC13285C3200CD7973 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = checkkeys;
 			};
 			name = Release;
@@ -2242,7 +2495,9 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testwm2;
 			};
 			name = Debug;
@@ -2250,15 +2505,173 @@
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testwm2;
+			};
+			name = Release;
+		};
+		33A86DB22130DA19004B6214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9SC9QXFQBZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Test-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.b23prodtm.Test-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "testgamecontroller-TV";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		33A86DB32130DA19004B6214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9SC9QXFQBZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Test-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.b23prodtm.Test-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "testgamecontroller-TV";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A86DC02130DA2F004B6214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9SC9QXFQBZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Test-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.b23prodtm.Test-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testsprite2;
+			};
+			name = Debug;
+		};
+		33A86DC12130DA2F004B6214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9SC9QXFQBZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Test-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.b23prodtm.Test-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testsprite2;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		56ED050B118A8FE400A56AA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testpower;
 			};
 			name = Debug;
@@ -2266,7 +2679,9 @@
 		56ED050C118A8FE400A56AA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testpower;
 			};
 			name = Release;
@@ -2274,8 +2689,10 @@
 		AA13B3241FB8AEBC00D9FEE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = EH385AYQ6F;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2283,8 +2700,10 @@
 		AA13B3251FB8AEBC00D9FEE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = EH385AYQ6F;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2292,7 +2711,9 @@
 		AAE7DEEA14CBB1E100DF1A0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testscale;
 			};
 			name = Debug;
@@ -2300,7 +2721,9 @@
 		AAE7DEEB14CBB1E100DF1A0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testscale;
 			};
 			name = Release;
@@ -2308,7 +2731,9 @@
 		AAE7DFAF14CBB54E00DF1A0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testrendertarget;
 			};
 			name = Debug;
@@ -2316,7 +2741,9 @@
 		AAE7DFB014CBB54E00DF1A0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testrendertarget;
 			};
 			name = Release;
@@ -2324,9 +2751,36 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../../include;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2340,8 +2794,34 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../../include;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -2388,6 +2868,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -2427,6 +2908,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -2438,7 +2920,9 @@
 		FABA348F1D8B575200915323 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2446,7 +2930,9 @@
 		FABA34901D8B575200915323 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2454,8 +2940,10 @@
 		FABA34A81D8B582100915323 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -2467,8 +2955,10 @@
 		FABA34A91D8B582100915323 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -2480,7 +2970,9 @@
 		FAE0E9911BAF9B230098DFA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2488,7 +2980,9 @@
 		FAE0E9921BAF9B230098DFA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2496,7 +2990,9 @@
 		FDA8AAB90E2D330F00EA573E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = loopwav;
 			};
 			name = Debug;
@@ -2504,7 +3000,9 @@
 		FDA8AABA0E2D330F00EA573E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = loopwav;
 			};
 			name = Release;
@@ -2512,7 +3010,9 @@
 		FDAAC3CB0E2D47E6001DB1D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testaudioinfo;
 			};
 			name = Debug;
@@ -2520,7 +3020,9 @@
 		FDAAC3CC0E2D47E6001DB1D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testaudioinfo;
 			};
 			name = Release;
@@ -2528,7 +3030,9 @@
 		FDAAC5990E2D5429001DB1D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testerror;
 			};
 			name = Debug;
@@ -2536,7 +3040,9 @@
 		FDAAC59A0E2D5429001DB1D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testerror;
 			};
 			name = Release;
@@ -2544,7 +3050,9 @@
 		FDAAC5C70E2D55B5001DB1D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testfile;
 			};
 			name = Debug;
@@ -2552,7 +3060,9 @@
 		FDAAC5C80E2D55B5001DB1D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testfile;
 			};
 			name = Release;
@@ -2560,7 +3070,9 @@
 		FDAAC6240E2D5914001DB1D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testgles;
 			};
 			name = Debug;
@@ -2568,7 +3080,9 @@
 		FDAAC6250E2D5914001DB1D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testgles;
 			};
 			name = Release;
@@ -2576,7 +3090,9 @@
 		FDC42FFE0F0D866D009C87E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = torturethread;
 			};
 			name = Debug;
@@ -2584,7 +3100,9 @@
 		FDC42FFF0F0D866D009C87E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = torturethread;
 			};
 			name = Release;
@@ -2592,7 +3110,9 @@
 		FDD2C1080E2E4F4B00B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testthread;
 			};
 			name = Debug;
@@ -2600,7 +3120,9 @@
 		FDD2C1090E2E4F4B00B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testthread;
 			};
 			name = Release;
@@ -2608,7 +3130,9 @@
 		FDD2C17F0E2E52C000B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testiconv;
 			};
 			name = Debug;
@@ -2616,7 +3140,9 @@
 		FDD2C1800E2E52C000B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testiconv;
 			};
 			name = Release;
@@ -2624,7 +3150,11 @@
 		FDD2C1A30E2E534F00B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testjoystick;
 			};
 			name = Debug;
@@ -2632,7 +3162,11 @@
 		FDD2C1A40E2E534F00B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testjoystick;
 			};
 			name = Release;
@@ -2640,7 +3174,9 @@
 		FDD2C45C0E2E773800B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testkeys;
 			};
 			name = Debug;
@@ -2648,7 +3184,9 @@
 		FDD2C45D0E2E773800B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testkeys;
 			};
 			name = Release;
@@ -2656,7 +3194,9 @@
 		FDD2C47A0E2E77D700B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testlock;
 			};
 			name = Debug;
@@ -2664,7 +3204,9 @@
 		FDD2C47B0E2E77D700B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testlock;
 			};
 			name = Release;
@@ -2672,7 +3214,9 @@
 		FDD2C5090E2E7F4800B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testplatform;
 			};
 			name = Debug;
@@ -2680,7 +3224,9 @@
 		FDD2C50A0E2E7F4800B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testplatform;
 			};
 			name = Release;
@@ -2688,7 +3234,9 @@
 		FDD2C5270E2E807600B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testsem;
 			};
 			name = Debug;
@@ -2696,7 +3244,9 @@
 		FDD2C5280E2E807600B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testsem;
 			};
 			name = Release;
@@ -2704,7 +3254,9 @@
 		FDD2C54C0E2E80E400B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testsprite2;
 			};
 			name = Debug;
@@ -2712,7 +3264,9 @@
 		FDD2C54D0E2E80E400B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testsprite2;
 			};
 			name = Release;
@@ -2720,7 +3274,9 @@
 		FDD2C5850E2E8C7400B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testtimer;
 			};
 			name = Debug;
@@ -2728,7 +3284,9 @@
 		FDD2C5860E2E8C7400B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testtimer;
 			};
 			name = Release;
@@ -2736,7 +3294,9 @@
 		FDD2C5C30E2E8CFC00B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testver;
 			};
 			name = Debug;
@@ -2744,7 +3304,9 @@
 		FDD2C5C40E2E8CFC00B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = testver;
 			};
 			name = Release;
@@ -2752,7 +3314,9 @@
 		FDD2C6F20E2E959E00B7A85F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = torturethread;
 			};
 			name = Debug;
@@ -2760,7 +3324,9 @@
 		FDD2C6F30E2E959E00B7A85F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = torturethread;
 			};
 			name = Release;
@@ -2791,6 +3357,24 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A86DB12130DA19004B6214 /* Build configuration list for PBXNativeTarget "Test-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A86DB22130DA19004B6214 /* Debug */,
+				33A86DB32130DA19004B6214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A86DBF2130DA2F004B6214 /* Build configuration list for PBXNativeTarget "Test-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A86DC02130DA2F004B6214 /* Debug */,
+				33A86DC12130DA2F004B6214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

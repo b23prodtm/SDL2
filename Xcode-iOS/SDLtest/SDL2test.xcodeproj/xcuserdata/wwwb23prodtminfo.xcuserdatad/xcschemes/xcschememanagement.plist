@@ -7,12 +7,12 @@
 		<key>SDL2test-TV.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>8</integer>
 		</dict>
 		<key>SDL2test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>7</integer>
 		</dict>
 	</dict>
 </dict>
