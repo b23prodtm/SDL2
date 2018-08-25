@@ -1,105 +1,38 @@
 language: objective-c
-podfile: ObjectiveCExample/Podfile
-xcode_workspace: ObjectiveCExample/ObjectiveCExample.xcworkspace
+xcode_project: Xcode-iOS/Test/TestiPhoneOS.xcodeproj
+osx_image: xcode9.4
+env:
+  global:
+    - CARTHAGE_PROJECT_DIR=XCode-iOS/SDL
+    - CONFIGURATION=Release
 matrix:
   include:
-    - osx_image: xcode9.4 # OS X 10.13
-      env: OSX_IMAGE="xcode9.4"
-           SDK="macosx"
-           DEVICE="OS X 10.13"
-
-    - osx_image: xcode8.3 # OS X 10.12
-      env: OSX_IMAGE="xcode8.3"
-           SDK="macosx"
-           DEVICE="OS X 10.12"
-
-    - osx_image: xcode7.3 # OS X 10.11
-      env: OSX_IMAGE="xcode7.3"
-           SDK="macosx"
-           DEVICE="OS X 10.11"
-
-    - osx_image: xcode9.4
-      env: OSX_IMAGE="xcode9.4"
-           SDK="appletvsimulator"
-           DEVICE="Apple TV 4K (11.4)" # latest for tvOS 11.x
-
-    - osx_image: xcode8.3
-      env: OSX_IMAGE="xcode8.3"
-           SDK="appletvsimulator"
-           DEVICE="Apple TV 1080p (10.2)" # latest for tvOS 10.x
-
-    - osx_image: xcode8.3
-      env: OSX_IMAGE="xcode8.3"
-           SDK="appletvsimulator"
-           DEVICE="Apple TV 1080p (9.2)" # latest for tvOS 9.x
-
-    - osx_image: xcode7.3
-      env: OSX_IMAGE="xcode7.3"
-           SDK="appletvsimulator"
-           DEVICE="Apple TV 1080p (9.0)" # oldest for tvOS 9.x
-
-    - osx_image: xcode9
-      env: OSX_IMAGE="xcode9"
-           SDK="iphonesimulator"
-           DEVICE="iPhone X (11.0)" # oldest/newest for iOS 11.x
-
-    - osx_image: xcode9
-      env: OSX_IMAGE="xcode9"
-           SDK="iphonesimulator"
-           DEVICE="iPhone 7 Plus (10.3.1)" # latest for iOS 10.x
-
-    - osx_image: xcode8.3
-      env: OSX_IMAGE="xcode8.3"
-           SDK="iphonesimulator"
-           DEVICE="iPhone 5 (10.0)" # oldest for iOS 10.x
-
-    - osx_image: xcode8.3
-      env: OSX_IMAGE="xcode8.3"
-           SDK="iphonesimulator"
-           DEVICE="iPhone 6s Plus (9.3)" # latest for iOS 9.x
-
-    - osx_image: xcode7.3
-      env: OSX_IMAGE="xcode7.3"
-           SDK="iphonesimulator"
-           DEVICE="iPhone 4s (9.0)" # oldest for iOS 9.x
-
-    - osx_image: xcode7.3
-      env: OSX_IMAGE="xcode7.3"
-           SDK="iphonesimulator"
-           DEVICE="iPhone 6 Plus (8.4)" # latest for iOS 8.x
-
-    - osx_image: xcode7.3
-      env: OSX_IMAGE="xcode7.3"
-           SDK="iphonesimulator"
-           DEVICE="iPhone 4s (8.1)" # oldest for iOS 8.x
-
+  - xcode_scheme: Test-iOS
+    xcode_sdk: iphonesimulator11.4
+    env: FRAMEWORK_NAME=SDL2 DESTINATION="platform=iOS Simulator,OS=11.4,name=iPhone X"
+  - xcode_scheme: Test-tvOS
+    xcode_sdk: appletvsimulator11.4
+    env: FRAMEWORK_NAME=SDL2.tvOS DESTINATION="platform=tvOS Simulator,OS=11.4,name=Apple TV"
 before_install:
-  - if [ ${OSX_IMAGE} = "xcode7.3" ]; then
-        `Workaround for https://github.com/CocoaPods/CocoaPods/issues/7765`
-        gem install cocoapods -v '1.5.3';
-    fi
-  - if [ ${SDK} = "macosx" ]; then
-        SCHEME="ObjectiveCExample_macOS";
-    elif [ ${SDK} = "appletvsimulator" ]; then
-        SCHEME="ObjectiveCExample_tvOS";
-    else
-        SCHEME="ObjectiveCExample_iOS";
-    fi
-  - if [ ${SDK} = "macosx" ]; then
-        DESTINATION="platform=macosx";
-    else
-        DESTINATION_UDID=$(instruments -s devices | grep "$DEVICE \[" | sed -E 's/.*\[([0-9A-F-]+)\].*/\1/g');
-        `Prelaunching simulator to avoid timeout https://github.com/travis-ci/travis-ci/issues/6422`
-        open -a Simulator --args -CurrentDeviceUDID $DESTINATION_UDID;
-        DESTINATION="id=$DESTINATION_UDID";
-    fi
-
+  - gem install xcpretty -N
+  - gem install xcpretty-travis-formatter --no-rdoc --no-ri --no-document --quiet
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+before_script:
+  - carthage bootstrap --project-directory $CARTHAGE_PROJECT_DIR
+before_deploy:
+  - cd $CARTHAGE_PROJECT_DIR
+  - carthage build --configuration $CONFIGURATION --cache-builds --no-skip-current
+  - carthage archive $FRAMEWORK_NAME
 script:
-  # Testing
-  - xcodebuild
-    `` -workspace ObjectiveCExample/ObjectiveCExample.xcworkspace
-    `` -scheme $SCHEME
-    `` -sdk $SDK
-    `` -destination "$DESTINATION"
-    `` -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES
-    `` test
+  - xcodebuild -project $TRAVIS_XCODE_PROJECT -scheme $TRAVIS_XCODE_SCHEME -destination "$DESTINATION" -sdk "$TRAVIS_XCODE_SDK" -configuration $CONFIGURATION CODE_SIGNING_REQUIRED=NO test | xcpretty -f `xcpretty-travis-formatter`
+deploy:
+  provider: releases
+  api_key:
+    secure: Qv+Mn+dkr7wmJILsTrSD5yU60ZLl/q1P2sTRRyHCbpTdNNGbxSKyt/Of9UrExE7gJvQ2sX62jtbsg5vRhkbVnWENn/qc6C62XDmAWkDC4l4F1oWhU23GVahbkO7+N23UdldRWLRz93sselZc66zSq0be9p9GNUeZY0D68AFOu7DeOA26XrKeiH/5K0fERE4WNVCUSdWJBKESBrelgg0+vbboFryLD+OeP5X/4We6HbrX4EIj2dNP/rv0H3yRYNduc5Vjhi0jtGgUrxm4iRi1rdSO67eu2+IO4s9jto4DFRW/jZEnJK3w95pc4f7v2jXeEr+wcl4a6Xjdxpo9W7Gtn7XChNHmlIIhKRTatvPXlaXhGiQBhlCT0qvxVSgJA8YNpKUJX+Qeye32jXLXuM8EowuvRUdEreS3jgUWG+pAtX10HDEocVJlS/WVDBHdlG++cqWvPcjCZe4mc9rgOtEcO0N7aq9zT8daTEqhRNDYB+qFHIgTmfqJ+8zGqJPwImwdthRtURd4NlWxdaKGfAXnE7HNp4nWJ1QNfYzDb1zdu5FfijjwQkFDLnIbYV/43bDnX8cKPykYH+tJzpP0NZuSsoE1a+4KWxcmlQYGIb2FBJ8YmraChHxr7AS3uRj3U+XeGo3U2yn4WrYM1qtZsI/MHnd99BORbV+p9h6WN7Gn8KE=
+  file: "$FRAMEWORK_NAME.framework.zip"
+  skip_cleanup: true
+  on:
+    repo: b23prodtm/SDL2
+    branch: ios-build
+    tags: true

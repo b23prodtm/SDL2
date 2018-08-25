@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDD2C53D0E2E80E400B7A85F"
-               BuildableName = "testsprite2.app"
-               BlueprintName = "testsprite2"
-               ReferencedContainer = "container:TestiPhoneOS.xcodeproj">
+               BlueprintIdentifier = "FA3D98F71BC4E5A2002C96C8"
+               BuildableName = "libSDL2test-TV.a"
+               BlueprintName = "SDL2test-TV"
+               ReferencedContainer = "container:SDL2test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33A86DB72130DA2F004B6214"
-               BuildableName = "Test-iOS.xctest"
-               BlueprintName = "Test-iOS"
-               ReferencedContainer = "container:TestiPhoneOS.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDD2C53D0E2E80E400B7A85F"
-            BuildableName = "testsprite2.app"
-            BlueprintName = "testsprite2"
-            ReferencedContainer = "container:TestiPhoneOS.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDD2C53D0E2E80E400B7A85F"
-            BuildableName = "testsprite2.app"
-            BlueprintName = "testsprite2"
-            ReferencedContainer = "container:TestiPhoneOS.xcodeproj">
+            BlueprintIdentifier = "FA3D98F71BC4E5A2002C96C8"
+            BuildableName = "libSDL2test-TV.a"
+            BlueprintName = "SDL2test-TV"
+            ReferencedContainer = "container:SDL2test.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDD2C53D0E2E80E400B7A85F"
-            BuildableName = "testsprite2.app"
-            BlueprintName = "testsprite2"
-            ReferencedContainer = "container:TestiPhoneOS.xcodeproj">
+            BlueprintIdentifier = "FA3D98F71BC4E5A2002C96C8"
+            BuildableName = "libSDL2test-TV.a"
+            BlueprintName = "SDL2test-TV"
+            ReferencedContainer = "container:SDL2test.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
