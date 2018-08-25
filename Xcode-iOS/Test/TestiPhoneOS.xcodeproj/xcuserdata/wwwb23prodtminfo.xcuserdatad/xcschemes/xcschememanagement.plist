@@ -4,115 +4,125 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>checkkeys.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
-		</dict>
-		<key>loopwav-TV.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>12</integer>
-		</dict>
-		<key>loopwav.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
-		</dict>
-		<key>testaudiocapture.xcscheme</key>
+		<key>Test-iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
-		<key>testaudioinfo.xcscheme</key>
+		<key>Test-tvOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>11</integer>
 		</dict>
-		<key>testdraw2.xcscheme</key>
+		<key>checkkeys.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>12</integer>
 		</dict>
-		<key>testerror.xcscheme</key>
+		<key>loopwav-TV.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
-		<key>testfile.xcscheme</key>
+		<key>loopwav.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>testaudiocapture.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>testaudioinfo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
-		<key>testgamecontroller-TV.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>18</integer>
-		</dict>
-		<key>testgamecontroller.xcscheme</key>
+		<key>testdraw2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
-		<key>testgesture.xcscheme</key>
+		<key>testerror.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>testfile.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
-		<key>testgles.xcscheme</key>
+		<key>testgamecontroller-TV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>testgamecontroller.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
-		<key>testiconv.xcscheme</key>
+		<key>testgesture.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
-		<key>testjoystick.xcscheme</key>
+		<key>testgles.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
-		<key>testkeys.xcscheme</key>
+		<key>testiconv.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
-		<key>testlock.xcscheme</key>
+		<key>testjoystick.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
-		<key>testplatform.xcscheme</key>
+		<key>testkeys.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
-		<key>testpower.xcscheme</key>
+		<key>testlock.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
-		<key>testrendertarget.xcscheme</key>
+		<key>testplatform.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
-		<key>testscale.xcscheme</key>
+		<key>testpower.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>testrendertarget.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
-		<key>testsem.xcscheme</key>
+		<key>testscale.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>29</integer>
 		</dict>
-		<key>testsprite2.xcscheme</key>
+		<key>testsem.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>30</integer>
+		</dict>
+		<key>testsprite2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>testthread.xcscheme</key>
 		<dict>
@@ -147,7 +157,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>33A86DA92130DA19004B6214</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>33A86DB72130DA2F004B6214</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>56ED04FC118A8FE400A56AA6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA3D99331BC4E644002C96C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
