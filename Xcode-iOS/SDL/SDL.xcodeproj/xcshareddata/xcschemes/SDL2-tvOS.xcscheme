@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33A86D7E2130D898004B6214"
+               BlueprintIdentifier = "33A86DC62130DADB004B6214"
                BuildableName = "SDL2.framework"
-               BlueprintName = "SDL2"
+               BlueprintName = "SDL2-tvOS"
                ReferencedContainer = "container:SDL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33A86D7E2130D898004B6214"
+            BlueprintIdentifier = "33A86DC62130DADB004B6214"
             BuildableName = "SDL2.framework"
-            BlueprintName = "SDL2"
+            BlueprintName = "SDL2-tvOS"
             ReferencedContainer = "container:SDL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33A86D7E2130D898004B6214"
+            BlueprintIdentifier = "33A86DC62130DADB004B6214"
             BuildableName = "SDL2.framework"
-            BlueprintName = "SDL2"
+            BlueprintName = "SDL2-tvOS"
             ReferencedContainer = "container:SDL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

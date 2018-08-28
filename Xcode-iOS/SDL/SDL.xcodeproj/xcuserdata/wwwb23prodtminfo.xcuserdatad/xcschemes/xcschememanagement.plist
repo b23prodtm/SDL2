@@ -17,17 +17,17 @@
 		<key>PrepareXcodeProjectTemplate.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>38</integer>
 		</dict>
-		<key>SDL2.tvOS.xcscheme_^#shared#^_</key>
+		<key>SDL2-iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>11</integer>
 		</dict>
-		<key>SDL2.xcscheme_^#shared#^_</key>
+		<key>SDL2-tvOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Tests-tvOS.xcscheme</key>
 		<dict>
@@ -52,6 +52,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>33A86D7E2130D898004B6214</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>33A86DC62130DADB004B6214</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C14357721F4C4F2A000B792B</key>
 		<dict>
 			<key>primary</key>

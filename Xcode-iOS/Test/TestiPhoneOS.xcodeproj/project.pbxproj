@@ -45,6 +45,8 @@
 		333FCF3F2131B8C600C02ECB /* libSDL2test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1EE452176059230029C7A5 /* libSDL2test.a */; };
 		333FCF422131B8D700C02ECB /* libSDL2test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1EE452176059230029C7A5 /* libSDL2test.a */; };
 		333FCF492131B8FE00C02ECB /* libSDL2test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1EE452176059230029C7A5 /* libSDL2test.a */; };
+		334CA3192135963400C2C8EB /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A86D9E2130D9DD004B6214 /* Test.m */; };
+		334CA31A2135964400C2C8EB /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A86D8D2130D9B0004B6214 /* Test.m */; };
 		33A86CA02130B0E4004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
 		33A86CA12130B135004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
 		33A86CA32130B148004B6214 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A86CA22130B148004B6214 /* Images.xcassets */; };
@@ -72,8 +74,6 @@
 		33A86CB92130B274004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
 		33A86CBA2130B278004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
 		33A86CBB2130B27C004B6214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */; };
-		33A86DAD2130DA19004B6214 /* Test_tvOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A86DAC2130DA19004B6214 /* Test_tvOS.m */; };
-		33A86DBB2130DA2F004B6214 /* Test_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A86DBA2130DA2F004B6214 /* Test_iOS.m */; };
 		56ED04FE118A8FE400A56AA6 /* icon.bmp in Resources */ = {isa = PBXBuildFile; fileRef = FDA8AAD90E2D33B000EA573E /* icon.bmp */; };
 		56ED0503118A8FE400A56AA6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A8980E2D111A00EA573E /* AudioToolbox.framework */; };
 		56ED0504118A8FE400A56AA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A8990E2D111A00EA573E /* QuartzCore.framework */; };
@@ -597,6 +597,13 @@
 			remoteGlobalIDString = AA1EE4451760589B0029C7A5;
 			remoteInfo = SDL2test;
 		};
+		334CA3012135597900C2C8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABA34961D8B582100915323;
+			remoteInfo = "loopwav-TV";
+		};
 		33A86D932130D9B0004B6214 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD1B48AC0E3131CA007AB34E /* SDL.xcodeproj */;
@@ -663,16 +670,12 @@
 		1D6058910D05DD3D006BFB54 /* testwm2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testwm2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A86C9F2130B0E4004B6214 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		33A86CA22130B148004B6214 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = testjoystick/Images.xcassets; sourceTree = "<group>"; };
-		33A86D8D2130D9B0004B6214 /* Test_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS.m; sourceTree = "<group>"; };
+		33A86D8D2130D9B0004B6214 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		33A86D8F2130D9B0004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33A86D9E2130D9DD004B6214 /* Test_tvOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_tvOS.m; sourceTree = "<group>"; };
+		33A86D9E2130D9DD004B6214 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		33A86DA02130D9DD004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33A86DAA2130DA19004B6214 /* Test-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33A86DAC2130DA19004B6214 /* Test_tvOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_tvOS.m; sourceTree = "<group>"; };
-		33A86DAE2130DA19004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33A86DB82130DA2F004B6214 /* Test-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33A86DBA2130DA2F004B6214 /* Test_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS.m; sourceTree = "<group>"; };
-		33A86DBC2130DA2F004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56ED050D118A8FE400A56AA6 /* testpower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testpower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ED0510118A904200A56AA6 /* testpower.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = testpower.c; path = ../../test/testpower.c; sourceTree = SOURCE_ROOT; };
 		AA13B3261FB8AEBC00D9FEE6 /* testyuv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testyuv.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1320,8 +1323,6 @@
 				FDA8A73B0E2D0F0400EA573E /* src */,
 				33A86D8C2130D9B0004B6214 /* Test-iOS */,
 				33A86D9D2130D9DD004B6214 /* Test-tvOS */,
-				33A86DAB2130DA19004B6214 /* Test-tvOS */,
-				33A86DB92130DA2F004B6214 /* Test-iOS */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				FABA34751D8B4EAC00915323 /* Frameworks */,
 			);
@@ -1331,7 +1332,7 @@
 		33A86D8C2130D9B0004B6214 /* Test-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				33A86D8D2130D9B0004B6214 /* Test_iOS.m */,
+				33A86D8D2130D9B0004B6214 /* Test.m */,
 				33A86D8F2130D9B0004B6214 /* Info.plist */,
 			);
 			path = "Test-iOS";
@@ -1340,28 +1341,10 @@
 		33A86D9D2130D9DD004B6214 /* Test-tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				33A86D9E2130D9DD004B6214 /* Test_tvOS.m */,
+				33A86D9E2130D9DD004B6214 /* Test.m */,
 				33A86DA02130D9DD004B6214 /* Info.plist */,
 			);
 			path = "Test-tvOS";
-			sourceTree = "<group>";
-		};
-		33A86DAB2130DA19004B6214 /* Test-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				33A86DAC2130DA19004B6214 /* Test_tvOS.m */,
-				33A86DAE2130DA19004B6214 /* Info.plist */,
-			);
-			path = "Test-tvOS";
-			sourceTree = "<group>";
-		};
-		33A86DB92130DA2F004B6214 /* Test-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				33A86DBA2130DA2F004B6214 /* Test_iOS.m */,
-				33A86DBC2130DA2F004B6214 /* Info.plist */,
-			);
-			path = "Test-iOS";
 			sourceTree = "<group>";
 		};
 		AA1EE44E176059220029C7A5 /* Products */ = {
@@ -1388,7 +1371,7 @@
 				FD1B48B80E3131CA007AB34E /* libSDL2.a */,
 				FA3D992B1BC4E619002C96C8 /* libSDL2.a */,
 				33A86D942130D9B0004B6214 /* SDL2.framework */,
-				333FCEFC2131B47000C02ECB /* SDL2_tvOS.framework */,
+				333FCEFC2131B47000C02ECB /* SDL2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1531,6 +1514,7 @@
 			);
 			dependencies = (
 				33A86DB02130DA19004B6214 /* PBXTargetDependency */,
+				334CA3022135597900C2C8EB /* PBXTargetDependency */,
 			);
 			name = "Test-tvOS";
 			productName = "Test-tvOS";
@@ -2017,7 +2001,7 @@
 						CreatedOnToolsVersion = 9.4.1;
 						DevelopmentTeam = 9SC9QXFQBZ;
 						ProvisioningStyle = Automatic;
-						TestTargetID = FA3D99331BC4E644002C96C8;
+						TestTargetID = FABA34961D8B582100915323;
 					};
 					33A86DB72130DA2F004B6214 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -2096,10 +2080,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		333FCEFC2131B47000C02ECB /* SDL2_tvOS.framework */ = {
+		333FCEFC2131B47000C02ECB /* SDL2.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SDL2_tvOS.framework;
+			path = SDL2.framework;
 			remoteRef = 333FCEFB2131B47000C02ECB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -2433,7 +2417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A86DAD2130DA19004B6214 /* Test_tvOS.m in Sources */,
+				334CA3192135963400C2C8EB /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2441,7 +2425,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A86DBB2130DA2F004B6214 /* Test_iOS.m in Sources */,
+				334CA31A2135964400C2C8EB /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2784,6 +2768,11 @@
 			name = SDL2test;
 			targetProxy = 333FCF472131B8F800C02ECB /* PBXContainerItemProxy */;
 		};
+		334CA3022135597900C2C8EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABA34961D8B582100915323 /* loopwav-TV */;
+			targetProxy = 334CA3012135597900C2C8EB /* PBXContainerItemProxy */;
+		};
 		33A86DB02130DA19004B6214 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FA3D99331BC4E644002C96C8 /* testgamecontroller-TV */;
@@ -2897,7 +2886,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_TARGET_NAME = "testgamecontroller-TV";
+				TEST_TARGET_NAME = "loopwav-TV";
 				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Debug;
@@ -2933,7 +2922,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_TARGET_NAME = "testgamecontroller-TV";
+				TEST_TARGET_NAME = "loopwav-TV";
 				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -3218,7 +3207,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -3258,7 +3247,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -3293,7 +3282,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -3308,7 +3297,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";

@@ -7,11 +7,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface Test_tvOS : XCTestCase
+@interface Test : XCTestCase
 
 @end
 
-@implementation Test_tvOS
+@implementation Test
 
 - (void)setUp {
     [super setUp];

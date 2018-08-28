@@ -87,6 +87,10 @@
 		04F7808512FB753F00FC43C0 /* SDL_nullframebuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F7808312FB753F00FC43C0 /* SDL_nullframebuffer.c */; };
 		04FFAB8B12E23B8D00BA343D /* SDL_atomic.c in Sources */ = {isa = PBXBuildFile; fileRef = 04FFAB8912E23B8D00BA343D /* SDL_atomic.c */; };
 		04FFAB8C12E23B8D00BA343D /* SDL_spinlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 04FFAB8A12E23B8D00BA343D /* SDL_spinlock.c */; };
+		334CA30A21357E7000C2C8EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334CA30921357E7000C2C8EB /* UIKit.framework */; };
+		334CA30C21357EBF00C2C8EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334CA30B21357EBF00C2C8EB /* UIKit.framework */; };
+		334CA3712135AE0700C2C8EB /* libSDL2.a in Resources */ = {isa = PBXBuildFile; fileRef = FAB598141BB5C1B100BE72C5 /* libSDL2.a */; };
+		334CA3722135AE1500C2C8EB /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB598141BB5C1B100BE72C5 /* libSDL2.a */; };
 		33A86CE32130D34E004B6214 /* SDL_blit.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA683010DF2374E00F98A1A /* SDL_blit.h */; };
 		33A86CE42130D34E004B6214 /* SDL_uikitmetalview.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7517191EE1D32200820EEA /* SDL_uikitmetalview.h */; };
 		33A86CE52130D34E004B6214 /* SDL_vulkan_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D75171D1EE1D98200820EEA /* SDL_vulkan_internal.h */; };
@@ -203,11 +207,10 @@
 		33A86D542130D34E004B6214 /* SDL_filesystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C181DE17C44D5E00406AE3 /* SDL_filesystem.h */; };
 		33A86D562130D433004B6214 /* SDL_config_appletvos.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A86D552130D433004B6214 /* SDL_config_appletvos.h */; };
 		33A86D832130D899004B6214 /* SDL2.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A86D812130D899004B6214 /* SDL2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33A86DCB2130DADB004B6214 /* SDL2_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A86DC92130DADB004B6214 /* SDL2_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A86DCB2130DADB004B6214 /* SDL2.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A86DC92130DADB004B6214 /* SDL2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33A86DD02130DAF2004B6214 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6526630DE8FCCB002AD96B /* libSDL2.a */; };
-		33A86DD12130DB18004B6214 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB598141BB5C1B100BE72C5 /* libSDL2.a */; };
 		33A86DD22130DB72004B6214 /* SDL.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7558971595D55500BBD41B /* SDL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33A86DD32130DB8A004B6214 /* SDL.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7558971595D55500BBD41B /* SDL.h */; };
+		33A86DD32130DB8A004B6214 /* SDL.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7558971595D55500BBD41B /* SDL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D7516FB1EE1C28A00820EEA /* SDL_uikitmetalview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7516F81EE1C28A00820EEA /* SDL_uikitmetalview.m */; };
 		4D7516FC1EE1C28A00820EEA /* SDL_uikitvulkan.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7516F91EE1C28A00820EEA /* SDL_uikitvulkan.h */; };
 		4D7516FD1EE1C28A00820EEA /* SDL_uikitvulkan.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7516FA1EE1C28A00820EEA /* SDL_uikitvulkan.m */; };
@@ -487,21 +490,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		33A86DD42130DBC0004B6214 /* PBXContainerItemProxy */ = {
+		334CA31B21359DAB00C2C8EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C143576D1F4C4DAA000B792B;
-			remoteInfo = "All-iOS";
+			remoteGlobalIDString = FD6526620DE8FCCB002AD96B;
+			remoteInfo = "libSDL-iOS";
 		};
-		33A86DD62130DBD2004B6214 /* PBXContainerItemProxy */ = {
+		334CA31D21359DB500C2C8EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C14357721F4C4F2A000B792B;
-			remoteInfo = "All-tvOS";
+			remoteGlobalIDString = FAB598131BB5C1B100BE72C5;
+			remoteInfo = "libSDL-tvOS";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		334CA3732135AE2300C2C8EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		006E9886119552DD001DE610 /* SDL_rwopsbundlesupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_rwopsbundlesupport.h; sourceTree = "<group>"; };
@@ -548,16 +563,14 @@
 		04F7808312FB753F00FC43C0 /* SDL_nullframebuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_nullframebuffer.c; sourceTree = "<group>"; };
 		04FFAB8912E23B8D00BA343D /* SDL_atomic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_atomic.c; sourceTree = "<group>"; };
 		04FFAB8A12E23B8D00BA343D /* SDL_spinlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_spinlock.c; sourceTree = "<group>"; };
+		334CA30921357E7000C2C8EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		334CA30B21357EBF00C2C8EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS11.4.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		33A86D552130D433004B6214 /* SDL_config_appletvos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_config_appletvos.h; sourceTree = "<group>"; };
-		33A86D5D2130D6D4004B6214 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		33A86D5F2130D6D4004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33A86D712130D803004B6214 /* Tests_tvOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests_tvOS.m; sourceTree = "<group>"; };
-		33A86D732130D803004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33A86D7F2130D898004B6214 /* SDL2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A86D812130D899004B6214 /* SDL2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL2.h; sourceTree = "<group>"; };
 		33A86D822130D899004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33A86DC72130DADB004B6214 /* SDL2_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL2_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33A86DC92130DADB004B6214 /* SDL2_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL2_tvOS.h; sourceTree = "<group>"; };
+		33A86DC72130DADB004B6214 /* SDL2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A86DC92130DADB004B6214 /* SDL2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL2.h; sourceTree = "<group>"; };
 		33A86DCA2130DADB004B6214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D7516F81EE1C28A00820EEA /* SDL_uikitmetalview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDL_uikitmetalview.m; sourceTree = "<group>"; };
 		4D7516F91EE1C28A00820EEA /* SDL_uikitvulkan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_uikitvulkan.h; sourceTree = "<group>"; };
@@ -764,6 +777,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334CA30A21357E7000C2C8EB /* UIKit.framework in Frameworks */,
 				33A86DD02130DAF2004B6214 /* libSDL2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -772,7 +786,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A86DD12130DB18004B6214 /* libSDL2.a in Frameworks */,
+				334CA30C21357EBF00C2C8EB /* UIKit.framework in Frameworks */,
+				334CA3722135AE1500C2C8EB /* libSDL2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,7 +902,7 @@
 				FD6526630DE8FCCB002AD96B /* libSDL2.a */,
 				FAB598141BB5C1B100BE72C5 /* libSDL2.a */,
 				33A86D7F2130D898004B6214 /* SDL2.framework */,
-				33A86DC72130DADB004B6214 /* SDL2_tvOS.framework */,
+				33A86DC72130DADB004B6214 /* SDL2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -897,10 +912,8 @@
 			children = (
 				FD99B8BC0DD52E5C00FB1D6B /* Public Headers */,
 				FD99B8BD0DD52E6D00FB1D6B /* Library Source */,
-				33A86D5C2130D6D4004B6214 /* Tests */,
-				33A86D702130D803004B6214 /* Tests-tvOS */,
-				33A86D802130D899004B6214 /* SDL2 */,
-				33A86DC82130DADB004B6214 /* SDL2.tvOS */,
+				33A86D802130D899004B6214 /* SDL2-iOS */,
+				33A86DC82130DADB004B6214 /* SDL2-tvOS */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				33A86DCF2130DAF2004B6214 /* Frameworks */,
 			);
@@ -908,45 +921,29 @@
 			sourceTree = "<group>";
 			usesTabs = 0;
 		};
-		33A86D5C2130D6D4004B6214 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				33A86D5D2130D6D4004B6214 /* Tests.m */,
-				33A86D5F2130D6D4004B6214 /* Info.plist */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		33A86D702130D803004B6214 /* Tests-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				33A86D712130D803004B6214 /* Tests_tvOS.m */,
-				33A86D732130D803004B6214 /* Info.plist */,
-			);
-			path = "Tests-tvOS";
-			sourceTree = "<group>";
-		};
-		33A86D802130D899004B6214 /* SDL2 */ = {
+		33A86D802130D899004B6214 /* SDL2-iOS */ = {
 			isa = PBXGroup;
 			children = (
 				33A86D812130D899004B6214 /* SDL2.h */,
 				33A86D822130D899004B6214 /* Info.plist */,
 			);
-			path = SDL2;
+			path = "SDL2-iOS";
 			sourceTree = "<group>";
 		};
-		33A86DC82130DADB004B6214 /* SDL2.tvOS */ = {
+		33A86DC82130DADB004B6214 /* SDL2-tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				33A86DC92130DADB004B6214 /* SDL2_tvOS.h */,
+				33A86DC92130DADB004B6214 /* SDL2.h */,
 				33A86DCA2130DADB004B6214 /* Info.plist */,
 			);
-			path = SDL2.tvOS;
+			path = "SDL2-tvOS";
 			sourceTree = "<group>";
 		};
 		33A86DCF2130DAF2004B6214 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				334CA30B21357EBF00C2C8EB /* UIKit.framework */,
+				334CA30921357E7000C2C8EB /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1528,7 +1525,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A86DCB2130DADB004B6214 /* SDL2_tvOS.h in Headers */,
+				33A86DCB2130DADB004B6214 /* SDL2.h in Headers */,
 				33A86DD22130DB72004B6214 /* SDL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1657,9 +1654,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		33A86D7E2130D898004B6214 /* SDL2 */ = {
+		33A86D7E2130D898004B6214 /* SDL2-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33A86D842130D899004B6214 /* Build configuration list for PBXNativeTarget "SDL2" */;
+			buildConfigurationList = 33A86D842130D899004B6214 /* Build configuration list for PBXNativeTarget "SDL2-iOS" */;
 			buildPhases = (
 				33A86D7A2130D898004B6214 /* Sources */,
 				33A86D7B2130D898004B6214 /* Frameworks */,
@@ -1669,30 +1666,31 @@
 			buildRules = (
 			);
 			dependencies = (
-				33A86DD52130DBC0004B6214 /* PBXTargetDependency */,
+				334CA31C21359DAB00C2C8EB /* PBXTargetDependency */,
 			);
-			name = SDL2;
+			name = "SDL2-iOS";
 			productName = SDL2;
 			productReference = 33A86D7F2130D898004B6214 /* SDL2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		33A86DC62130DADB004B6214 /* SDL2.tvOS */ = {
+		33A86DC62130DADB004B6214 /* SDL2-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33A86DCC2130DADB004B6214 /* Build configuration list for PBXNativeTarget "SDL2.tvOS" */;
+			buildConfigurationList = 33A86DCC2130DADB004B6214 /* Build configuration list for PBXNativeTarget "SDL2-tvOS" */;
 			buildPhases = (
 				33A86DC22130DADB004B6214 /* Sources */,
 				33A86DC32130DADB004B6214 /* Frameworks */,
 				33A86DC42130DADB004B6214 /* Headers */,
 				33A86DC52130DADB004B6214 /* Resources */,
+				334CA3732135AE2300C2C8EB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				33A86DD72130DBD2004B6214 /* PBXTargetDependency */,
+				334CA31E21359DB500C2C8EB /* PBXTargetDependency */,
 			);
-			name = SDL2.tvOS;
+			name = "SDL2-tvOS";
 			productName = SDL2.tvOS;
-			productReference = 33A86DC72130DADB004B6214 /* SDL2_tvOS.framework */;
+			productReference = 33A86DC72130DADB004B6214 /* SDL2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FAB598131BB5C1B100BE72C5 /* libSDL-tvOS */ = {
@@ -1748,6 +1746,7 @@
 					33A86DC62130DADB004B6214 = {
 						CreatedOnToolsVersion = 9.4.1;
 						DevelopmentTeam = 9SC9QXFQBZ;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					FAB598131BB5C1B100BE72C5 = {
@@ -1778,8 +1777,8 @@
 				00B4F48B12F6A69C0084EC00 /* PrepareXcodeProjectTemplate */,
 				C143576D1F4C4DAA000B792B /* All-iOS */,
 				C14357721F4C4F2A000B792B /* All-tvOS */,
-				33A86D7E2130D898004B6214 /* SDL2 */,
-				33A86DC62130DADB004B6214 /* SDL2.tvOS */,
+				33A86D7E2130D898004B6214 /* SDL2-iOS */,
+				33A86DC62130DADB004B6214 /* SDL2-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1796,6 +1795,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334CA3712135AE0700C2C8EB /* libSDL2.a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2120,15 +2120,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		33A86DD52130DBC0004B6214 /* PBXTargetDependency */ = {
+		334CA31C21359DAB00C2C8EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C143576D1F4C4DAA000B792B /* All-iOS */;
-			targetProxy = 33A86DD42130DBC0004B6214 /* PBXContainerItemProxy */;
+			target = FD6526620DE8FCCB002AD96B /* libSDL-iOS */;
+			targetProxy = 334CA31B21359DAB00C2C8EB /* PBXContainerItemProxy */;
 		};
-		33A86DD72130DBD2004B6214 /* PBXTargetDependency */ = {
+		334CA31E21359DB500C2C8EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C14357721F4C4F2A000B792B /* All-tvOS */;
-			targetProxy = 33A86DD62130DBD2004B6214 /* PBXContainerItemProxy */;
+			target = FAB598131BB5C1B100BE72C5 /* libSDL-tvOS */;
+			targetProxy = 334CA31D21359DB500C2C8EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2186,13 +2186,13 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = SDL2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SDL2-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = info.b23prodtm.SDL2;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SDL2;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2229,13 +2229,13 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = SDL2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SDL2-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = info.b23prodtm.SDL2;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SDL2;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2277,14 +2277,16 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = SDL2.tvOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SDL2-tvOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = info.b23prodtm.SDL2.tvOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = info.b23prodtm.SDL2;
+				PRODUCT_NAME = SDL2;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2321,14 +2323,15 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = SDL2.tvOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SDL2-tvOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = info.b23prodtm.SDL2.tvOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = info.b23prodtm.SDL2;
+				PRODUCT_NAME = SDL2;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VALIDATE_PRODUCT = YES;
@@ -2592,7 +2595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33A86D842130D899004B6214 /* Build configuration list for PBXNativeTarget "SDL2" */ = {
+		33A86D842130D899004B6214 /* Build configuration list for PBXNativeTarget "SDL2-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33A86D852130D899004B6214 /* Debug */,
@@ -2601,7 +2604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33A86DCC2130DADB004B6214 /* Build configuration list for PBXNativeTarget "SDL2.tvOS" */ = {
+		33A86DCC2130DADB004B6214 /* Build configuration list for PBXNativeTarget "SDL2-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33A86DCD2130DADB004B6214 /* Debug */,
