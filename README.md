@@ -1,9 +1,21 @@
-iOS
-======
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-==============================================================================
-Building the Simple DirectMedia Layer for iOS 5.1+
-==============================================================================
+- [Building the Simple DirectMedia Layer for iOS 5.1+](#building-the-simple-directmedia-layer-for-ios-51)
+- [Build SDL for iOS from the command line](#build-sdl-for-ios-from-the-command-line)
+- [Using the Simple DirectMedia Layer for iOS](#using-the-simple-directmedia-layer-for-ios)
+- [Notes](#notes)
+	- [Retina / High-DPI and window sizes](#retina-high-dpi-and-window-sizes)
+	- [Application events](#application-events)
+	- [Accelerometer as Joystick](#accelerometer-as-joystick)
+	- [OpenGL ES](#opengl-es)
+	- [Keyboard](#keyboard)
+	- [Reading and Writing files](#reading-and-writing-files)
+	- [iPhone SDL limitations](#iphone-sdl-limitations)
+- [Game Center](#game-center)
+- [Deploying to older versions of iOS](#deploying-to-older-versions-of-ios)
+
+<!-- /TOC -->
+# Building the Simple DirectMedia Layer for iOS 5.1+
 
 Requirements: Mac OS X 10.8 or later and the iOS 7+ SDK.
 
@@ -21,29 +33,25 @@ There are three build targets:
 	Package a project template together with the SDL for iPhone static libraries and copies of the SDL headers.  The template includes proper references to the SDL library and headers, skeleton code for a basic SDL program, and placeholder graphics for the application icon and startup screen.
 
 
-==============================================================================
-Build SDL for iOS from the command line
-==============================================================================
+# Build SDL for iOS from the command line
 
 1. cd (PATH WHERE THE SDL CODE IS)/build-scripts
 2. ./iosbuild.sh
 
 If everything goes fine, you should see a build/ios directory, inside there's
-two directories "lib" and "include". 
+two directories "lib" and "include".
 "include" contains a copy of the SDL headers that you'll need for your project,
 make sure to configure XCode to look for headers there.
-"lib" contains find two files, libSDL2.a and libSDL2main.a, you have to add both 
+"lib" contains find two files, libSDL2.a and libSDL2main.a, you have to add both
 to your XCode project. These libraries contain three architectures in them,
 armv6 for legacy devices, armv7, and i386 (for the simulator).
-By default, iosbuild.sh will autodetect the SDK version you have installed using 
-xcodebuild -showsdks, and build for iOS >= 3.0, you can override this behaviour 
+By default, iosbuild.sh will autodetect the SDK version you have installed using
+xcodebuild -showsdks, and build for iOS >= 3.0, you can override this behaviour
 by setting the MIN_OS_VERSION variable, ie:
 
 MIN_OS_VERSION=4.2 ./iosbuild.sh
 
-==============================================================================
-Using the Simple DirectMedia Layer for iOS
-==============================================================================
+# Using the Simple DirectMedia Layer for iOS
 
 FIXME: This needs to be updated for the latest methods
 
@@ -59,9 +67,8 @@ Here is a more manual method:
 4.  Remove the ApplicationDelegate.h and ApplicationDelegate.m files -- SDL for iOS provides its own UIApplicationDelegate.  Remove MainWindow.xib -- SDL for iOS produces its user interface programmatically.
 5.  Delete the contents of main.m and program your app as a regular SDL program instead.  You may replace main.m with your own main.c, but you must tell Xcode not to use the project prefix file, as it includes Objective-C code.
 
-==============================================================================
-Notes -- Retina / High-DPI and window sizes
-==============================================================================
+# Notes
+## Retina / High-DPI and window sizes
 
 Window and display mode sizes in SDL are in "screen coordinates" (or "points",
 in Apple's terminology) rather than in pixels. On iOS this means that a window
@@ -88,9 +95,7 @@ orthographic projection matrix using the size in screen coordinates
 (SDL_GetWindowSize()) can be used in order to display content at the same scale
 no matter whether a Retina device is used or not.
 
-==============================================================================
-Notes -- Application events
-==============================================================================
+## Application events
 
 On iOS the application goes through a fixed life cycle and you will get
 notifications of state changes via application events. When these events
@@ -140,28 +145,24 @@ e.g.
             return 1;
         }
     }
-    
+
     int main(int argc, char *argv[])
     {
         SDL_SetEventFilter(HandleAppEvents, NULL);
-    
+
         ... run your main loop
-    
+
         return 0;
     }
 
-    
-==============================================================================
-Notes -- Accelerometer as Joystick
-==============================================================================
+
+## Accelerometer as Joystick
 
 SDL for iPhone supports polling the built in accelerometer as a joystick device.  For an example on how to do this, see the accelerometer.c in the demos directory.
 
 The main thing to note when using the accelerometer with SDL is that while the iPhone natively reports accelerometer as floating point values in units of g-force, SDL_JoystickGetAxis() reports joystick values as signed integers.  Hence, in order to convert between the two, some clamping and scaling is necessary on the part of the iPhone SDL joystick driver.  To convert SDL_JoystickGetAxis() reported values BACK to units of g-force, simply multiply the values by SDL_IPHONE_MAX_GFORCE / 0x7FFF.
 
-==============================================================================
-Notes -- OpenGL ES
-==============================================================================
+## OpenGL ES
 
 Your SDL application for iOS uses OpenGL ES for video by default.
 
@@ -179,9 +180,7 @@ OpenGL ES on iOS doesn't use the traditional system-framebuffer setup provided i
 
 The above objects can be obtained via SDL_GetWindowWMInfo() (in SDL_syswm.h).
 
-==============================================================================
-Notes -- Keyboard
-==============================================================================
+## Keyboard
 
 The SDL keyboard API has been extended to support on-screen keyboards:
 
@@ -195,9 +194,7 @@ SDL_bool SDL_IsTextInputActive()
 	-- returns whether or not text events are enabled (and the onscreen keyboard is visible)
 
 
-==============================================================================
-Notes -- Reading and Writing files
-==============================================================================
+## Reading and Writing files
 
 Each application installed on iPhone resides in a sandbox which includes its own Application Home directory.  Your application may not access files outside this directory.
 
@@ -215,9 +212,7 @@ When your SDL based iPhone application starts up, it sets the working directory 
 More information on this subject is available here:
 http://developer.apple.com/library/ios/#documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html
 
-==============================================================================
-Notes -- iPhone SDL limitations
-==============================================================================
+## iPhone SDL limitations
 
 Windows:
 	Full-size, single window applications only.  You cannot create multi-window SDL applications for iPhone OS.  The application window will fill the display, though you have the option of turning on or off the menu-bar (pass SDL_CreateWindow() the flag SDL_WINDOW_BORDERLESS).
@@ -228,9 +223,7 @@ Textures:
 Loading Shared Objects:
 	This is disabled by default since it seems to break the terms of the iOS SDK agreement for iOS versions prior to iOS 8. It can be re-enabled in SDL_config_iphoneos.h.
 
-==============================================================================
-Game Center 
-==============================================================================
+# Game Center
 
 Game Center integration might require that you break up your main loop in order to yield control back to the system. In other words, instead of running an endless main loop, you run each frame in a callback function, using:
 
@@ -245,15 +238,15 @@ e.g.
     {
         ... do event handling, frame logic and rendering ...
     }
-    
+
     int main(int argc, char *argv[])
     {
         ... initialize game ...
-    
+
     #if __IPHONEOS__
         // Initialize the Game Center for scoring and matchmaking
         InitGameCenter();
-    
+
         // Set up the game to run in the window animation callback on iOS
         // so that Game Center and so forth works correctly.
         SDL_iPhoneSetAnimationCallback(window, 1, ShowFrame, NULL);
@@ -266,9 +259,7 @@ e.g.
         return 0;
     }
 
-==============================================================================
-Deploying to older versions of iOS
-==============================================================================
+# Deploying to older versions of iOS
 
 SDL supports deploying to older versions of iOS than are supported by the latest version of Xcode, all the way back to iOS 6.1
 
